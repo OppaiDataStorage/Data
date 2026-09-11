@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "brand": {
+    "name": "O-PROJECT",
+    "descriptor": "INDEPENDENT SOFTWARE / SYSTEMS / EXPERIMENTS",
+    "repoUrl": "https://github.com/Oppai1442/O-Project"
+  },
+  "updatedAt": "2026-09-11T17:12:00+07:00",
+  "products": [
+    {
+      "id": "OP-001",
+      "slug": "o-wallet",
+      "name": "O-Wallet",
+      "eyebrow": "PERSONAL FINANCE / PWA",
+      "summary": "Private, local-first expense tracking with encrypted sync, OCR and guided voice entry.",
+      "description": "A static React PWA for personal finance. Core transaction processing, analytics, OCR, encryption and local persistence run in the browser; optional encrypted Google Drive synchronization keeps the data model local-first.",
+      "status": "stable",
+      "version": "0.19.1",
+      "platform": "WEB / PWA",
+      "stack": "REACT / TYPESCRIPT / VITE",
+      "updatedAt": "2026-09-11",
+      "featured": true,
+      "tags": ["LOCAL-FIRST", "FINANCE", "PWA", "ENCRYPTED SYNC", "OCR"],
+      "links": {
+        "primary": "https://oppai1442.github.io/O-Wallet/",
+        "source": "https://github.com/Oppai1442/O-Wallet"
+      },
+      "telemetry": {
+        "channel": "PUBLIC",
+        "license": "PRIVATE",
+        "build": "0.19.1"
+      }
+    }
+  ]
+}
