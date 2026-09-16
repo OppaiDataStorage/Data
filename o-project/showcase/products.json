@@ -5,7 +5,7 @@
     "descriptor": "INDEPENDENT SOFTWARE / SYSTEMS / EXPERIMENTS",
     "repoUrl": "https://github.com/Oppai1442/O-Project"
   },
-  "updatedAt": "2026-09-17T00:33:00+07:00",
+  "updatedAt": "2026-09-17T00:40:00+07:00",
   "products": [
     {
       "id": "OP-001",
@@ -46,7 +46,6 @@
       "featured": false,
       "tags": ["STEAM", "LOCAL-FIRST", "PLAYTIME", "TRADING CARDS", "CLOUDFLARE"],
       "links": {
-        "primary": "https://github.com/Oppai1442/O-Steam-Idle#local-windows-quick-start",
         "source": "https://github.com/Oppai1442/O-Steam-Idle"
       },
       "telemetry": {
