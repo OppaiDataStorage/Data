@@ -1,16 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "brand": {
     "name": "O-PROJECT",
     "descriptor": "INDEPENDENT SOFTWARE / SYSTEMS / EXPERIMENTS",
     "repoUrl": "https://github.com/Oppai1442/O-Project"
   },
-  "updatedAt": "2026-09-17T00:40:00+07:00",
+  "updatedAt": "2026-09-17T16:20:00+07:00",
   "products": [
     {
       "id": "OP-001",
       "slug": "o-wallet",
       "name": "O-Wallet",
+      "type": "web-app",
       "eyebrow": "PERSONAL FINANCE / PWA",
       "summary": "Private, local-first expense tracking with encrypted sync, OCR and guided voice entry.",
       "description": "A static React PWA for personal finance. Core transaction processing, analytics, OCR, encryption and local persistence run in the browser; optional encrypted Google Drive synchronization keeps the data model local-first.",
@@ -21,10 +22,18 @@
       "updatedAt": "2026-09-11",
       "featured": true,
       "tags": ["LOCAL-FIRST", "FINANCE", "PWA", "ENCRYPTED SYNC", "OCR"],
-      "links": {
-        "primary": "https://oppai1442.github.io/O-Wallet/",
-        "source": "https://github.com/Oppai1442/O-Wallet"
-      },
+      "actions": [
+        {
+          "type": "launch",
+          "label": "OPEN PRODUCT",
+          "url": "https://oppai1442.github.io/O-Wallet/"
+        },
+        {
+          "type": "source",
+          "label": "SOURCE",
+          "url": "https://github.com/Oppai1442/O-Wallet"
+        }
+      ],
       "telemetry": {
         "channel": "PUBLIC",
         "license": "PRIVATE",
@@ -35,6 +44,7 @@
       "id": "OP-002",
       "slug": "o-steam-idle",
       "name": "O-Steam-Idle",
+      "type": "utility",
       "eyebrow": "STEAM UTILITY / PLAYTIME",
       "summary": "Local-first Steam presence and playtime controller for idling multiple AppIDs from one lightweight Node.js process.",
       "description": "An unofficial Steam utility with Steam Mobile QR authentication, library selection, trading-card drop visibility, persistent priority idle slots, session coexistence handling and manual AppIDs for F2P edge cases. It runs one steam-user session for the selected set, rotates larger selections in batches, and supports both local Windows use and an optional Cloudflare Container deployment.",
@@ -45,9 +55,13 @@
       "updatedAt": "2026-09-16",
       "featured": false,
       "tags": ["STEAM", "LOCAL-FIRST", "PLAYTIME", "TRADING CARDS", "CLOUDFLARE"],
-      "links": {
-        "source": "https://github.com/Oppai1442/O-Steam-Idle"
-      },
+      "actions": [
+        {
+          "type": "source",
+          "label": "SOURCE",
+          "url": "https://github.com/Oppai1442/O-Steam-Idle"
+        }
+      ],
       "telemetry": {
         "channel": "PUBLIC",
         "license": "UNSPECIFIED",
