@@ -5,7 +5,7 @@
     "descriptor": "INDEPENDENT SOFTWARE / SYSTEMS / EXPERIMENTS",
     "repoUrl": "https://github.com/Oppai1442/O-Project"
   },
-  "updatedAt": "2026-09-17T16:20:00+07:00",
+  "updatedAt": "2026-09-18T10:50:00+07:00",
   "products": [
     {
       "id": "OP-001",
@@ -66,6 +66,34 @@
         "channel": "PUBLIC",
         "license": "UNSPECIFIED",
         "build": "0.3.2"
+      }
+    },
+    {
+      "id": "OP-003",
+      "slug": "o-clan-manager",
+      "name": "O-Clan Manager",
+      "type": "game-tool",
+      "eyebrow": "CLASH OF CLANS / CLAN OPS",
+      "summary": "Self-hosted Clash of Clans clan operations dashboard backed by Google Sheets and Apps Script.",
+      "description": "A self-hosted clan management console for Clash of Clans. It collects clan, member, war, CWL and Capital Raid data into Google Sheets through Apps Script, then presents the operational data in a React dashboard with member history, war tracking, recommendations, analytics and announcements. Each clan owns its spreadsheet, API credentials and deployment.",
+      "status": "beta",
+      "version": "0.0.0",
+      "platform": "WEB / GOOGLE SHEETS",
+      "stack": "REACT / TYPESCRIPT / APPS SCRIPT",
+      "updatedAt": "2026-09-18",
+      "featured": false,
+      "tags": ["GAME TOOL", "CLASH OF CLANS", "SELF-HOSTED", "GOOGLE SHEETS", "APPS SCRIPT"],
+      "actions": [
+        {
+          "type": "source",
+          "label": "SETUP / SOURCE",
+          "url": "https://github.com/Oppai1442/CoC-clan-management"
+        }
+      ],
+      "telemetry": {
+        "channel": "SELF-HOSTED",
+        "license": "UNSPECIFIED",
+        "build": "0.0.0"
       }
     }
   ]
