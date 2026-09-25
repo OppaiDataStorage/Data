@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "app": "o-wallet",
+  "version": "0.19.2",
+  "minSupportedVersion": "0.19.1",
+  "build": "14d18aae87cd2629cbfef5f67546cb663ccb17fb",
+  "releasedAt": "2026-09-25T11:49:41Z",
+  "forceUpdate": false,
+  "updatePolicy": "auto"
+}
